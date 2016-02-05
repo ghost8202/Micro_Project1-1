@@ -29,19 +29,16 @@ public void game(){
 				String loseMes=br.readLine();
 				String greatMes=br.readLine();
 				String lessMes=br.readLine();
-				System.out.println(name+score+chance+winMes);
-				System.out.println(loseMes+greatMes+lessMes);
+				//System.out.println(name+score+chance+winMes);
+				//System.out.println(loseMes+greatMes+lessMes);
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 
-	//System.out.println(fd.getFile());
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
 }
